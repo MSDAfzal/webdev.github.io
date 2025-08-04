@@ -15,10 +15,10 @@ const myImage = document.querySelector("img");
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/logo1.jpg") {
-    myImage.setAttribute("src", "images/logo2.jpg");
+  if (mySrc === "./Images/logo1.jpg") {
+    myImage.setAttribute("src", "./Images/logo2.jpg");
   } else {
-    myImage.setAttribute("src", "images/logo1.jpg");
+    myImage.setAttribute("src", "./Images/logo1.jpg");
   }
 });
 // Welcome Message
@@ -44,3 +44,4 @@ if (!localStorage.getItem("name")) {
 myButton.addEventListener("click", () => {
   setUserName();
 });
+
