@@ -1,0 +1,51 @@
+html {
+  /* px means "pixels". The base font size is now 12 pixels high */
+  font-size: 12px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  border: 3px solid black;
+}
+#welcome {
+  margin: 0;
+  padding: 20px 0;
+  color: #06b880;
+  /*text-shadow: 3px 3px 1px black;*/
+  font-size: 14px;
+  text-align: left;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #000911;
+  /*text-shadow: 3px 3px 1px black;*/
+  font-size: 40px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 20%;
+}
+#allama {
+  display: block;
+  margin: 0 auto;
+  max-width: 25%;
+}
+.done {
+  color: red;
+  text-decoration: line-through solid black 2px;
+}
